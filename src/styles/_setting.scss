@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$font-1: 'Lato', sans-serif;
+$primaire: #FD2D01;
+$secondaire:#FFD7D7;
+$tertiaire: #4E5166;
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    // outline: none;
+    // border: none;
+}
+
+:root {
+    // un REM = 10px
+    font-size: 62.5%; 
+}
+body {
+    padding: 1rem;
+    font-weight: 700;
+    font-family: $font-1;
+    color: #000;
+}
