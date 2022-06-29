@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Post = () => {
+const Postage = () => {
     return (
         <div>
-            Voici le composant Post
+            Voici la page Postage
         </div>
     );
 };
 
-export default Post;
+export default Postage;
