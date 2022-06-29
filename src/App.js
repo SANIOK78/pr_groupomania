@@ -1,9 +1,11 @@
+import React from 'react';
+import Routes from "./components/Routes/index"
 
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <Routes/>
       salut depuis app.js
     </div>
   );
