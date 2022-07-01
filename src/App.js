@@ -1,11 +1,12 @@
 import React from 'react';
-import Routes from './components/Routes/routes'
+import Routes from './Routes/routes'
 
 const App = () => {
   
   return (
-    <div className="App">    
-      <h1>salut depuis app.js</h1>
+    <div className="App"> 
+       
+      
       <Routes/>
     </div>  
   

@@ -1,10 +1,8 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
-import Home from '../../containers/pages/Home';
-import Profil from '../../containers/pages/Profil';
-import Postage from '../../containers/pages/Postage';
-
-
+import Home from '../pages/Home';
+import Profil from '../pages/Profil';
+import Postage from '../pages/Postage';
 
 const routes = () => {
     return (
@@ -12,7 +10,7 @@ const routes = () => {
             <Route path='/' element={<Home />} />
             <Route path='/profil' element={<Profil/>} />
             <Route path='/postage' element={<Postage />} />
-        
+            
         </Routes>
     );
 };

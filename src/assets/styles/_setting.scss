@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 $font-1: 'Lato', sans-serif;
+$font-2: 'Fredoka One', cursive;
 $primaire: #FD2D01;
-$secondaire:#FFD7D7;
+$primClaire: lighten(#FD2D01, 25%);
+$secondaire:#ffd7d7;
+$secondClaire: lighten(#ffd7d7, 5%);
 $tertiaire: #4E5166;
+$tertiClaire: lighten(#4E5166, 45%);
 
 * {
     box-sizing: border-box;
@@ -25,3 +30,7 @@ body {
     font-family: $font-1;
     color: #000;
 }
+input{
+    border-style: unset;
+}
+
